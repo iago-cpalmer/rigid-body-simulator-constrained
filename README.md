@@ -4,6 +4,8 @@ A small 3D rigid body simulator in C++20 that compares three ways of keeping bod
 
 The scene is a chain of two 2 × 2 × 6 boxes, each with a mass of 1. The first box is pinned to a fixed point in the world and the second hangs from the first by a point joint. Both fall under gravity from rest.
 
+![The two-box chain swinging from its fixed anchor](docs/screenshot.png)
+
 ## Requirements
 
 - CMake 3.20 or newer
